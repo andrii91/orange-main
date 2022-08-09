@@ -11,3 +11,215 @@ body {
   @import 'MediaQueries/main';
   overflow-x: hidden;
 }
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  padding-top: 24px;
+  .container-fluid {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    max-width: 66px;
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px; 
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .nav-info {
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #090909;
+    max-width: 120px;
+    
+    a {
+      font-family: 'PF DinText Pro';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.02em;
+      text-decoration-line: underline;
+      text-transform: uppercase;
+      color: #090909;
+      margin-left: 24px;
+    }
+    
+    &.full {
+      max-width: inherit;
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  .lang {
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #090909;
+
+  }
+  
+  .contacts {
+    max-width: 170px;
+    text-align: right;
+    a {
+      display: block;
+      font-family: 'PF DinText Pro';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.02em;
+      text-decoration-line: underline;
+      text-transform: lowercase;
+      color: #090909;
+      margin-bottom: 4px;
+      
+      &.telegramm {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        svg {
+          margin-right: 8px;
+        }
+        span {
+          text-decoration-line: underline;
+        }
+      }
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  .location {
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #090909;
+    transform: rotate(-90deg);
+    position: fixed;
+    bottom: 455px;
+    right: 14px;
+    transform-origin: bottom right;
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+    svg {
+      margin-right: 14px;
+    }
+  }
+  
+  .playlist {
+    text-decoration: none;
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #090909; 
+    position: fixed;
+    bottom: 170px;
+    right: 14px;
+    transform-origin: bottom right;
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+    z-index: 9; 
+    svg {
+      margin-right: 14px;
+      color: #1ED760;
+    }
+  }
+  
+  .social {
+    color: #090909;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 130px;
+    left: 24px;
+    z-index: 9;
+    li {
+      margin-bottom: 12px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      a {
+        display: block;
+        text-decoration: none;
+      }
+    }
+  }
+  
+  .profile {
+    font-family: 'PF DinText Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #090909;
+    position: fixed;
+    bottom: 24px;
+    left: 24px;
+    z-index: 9;
+    width: 90px;
+    a {
+      font-weight: 500;
+    }
+  }
+}
+
+.header {
+  padding-top: 200px;
+  min-height: 500vh;
+}
+
+.h1 {
+  font-family: 'PF DinText Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #090909;
+  span {
+    display: block;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+}
