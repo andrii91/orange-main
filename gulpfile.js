@@ -51,7 +51,7 @@ gulp.task('js', async function() {
 gulp.task('js_v', async function() {
     gulp.src([
             'src/js/vendor/jquery.js',
-            // 'src/js/vendor/jquery.scrollTo.js',
+            // 'src/js/vendor/intlTelInput-jquery.min.js',
             // 'src/js/vendor/jquery.waypoints.min.js',
             // 'src/js/vendor/jqueryrotate.2.1.js',
         ])

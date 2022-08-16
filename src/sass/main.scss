@@ -1,4 +1,4 @@
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
@@ -24,8 +24,9 @@
 ::-webkit-scrollbar-track:hover {
   border: solid 1px #F0FE5C;
   border-color: #fff;
-}
+}*/
 
 @import 'info/fonts';
 @import 'info/reset';
+@import 'info/intlTelInput';
 @import 'info/main';
