@@ -365,7 +365,23 @@ html {
 
 @media (min-width: 1200px) {
   .container {
+    max-width: 862px;
+    
+    .section-info {
+      position: static;
+      max-width: 100%;
+    }
+  }
+}
+
+@media (min-width: 1680px) {
+  .container {
     max-width: 1288px;
+    
+    .section-info {
+      position: absolute;
+      max-width: 480px
+    }
   }
 }
 
